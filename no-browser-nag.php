@@ -1,10 +1,11 @@
 <?php
 /**
  * Plugin Name: No Browser Nag
- * Version:     1.2
+ * Version:     1.2.1
  * Plugin URI:  http://coffee2code.com/wp-plugins/no-browser-nag/
  * Author:      Scott Reilly
  * Author URI:  http://coffee2code.com
+ * Text Domain: no-browser-nag
  * License:     GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Description: Removes the browser update nag that appears in the admin dashboard when using a less-than-current web browser.
@@ -15,7 +16,7 @@
  * upgrading (e.g. as you wait for a bugfix release, or for browser plugins to
  * update their compatibility).
  *
- * Compatible with WordPress 3.4+ through 4.1+.
+ * Compatible with WordPress 3.4+ through 4.4+.
  *
  * =>> Read the accompanying readme.txt file for instructions and documentation.
  * =>> Also, visit the plugin's homepage for additional information and updates.
@@ -23,7 +24,7 @@
  *
  * @package No_Browser_Nag
  * @author  Scott Reilly
- * @version 1.2
+ * @version 1.2.1
  */
 
 /* TODO:
@@ -35,7 +36,7 @@
 */
 
 /*
-	Copyright (c) 2011-2015 by Scott Reilly (aka coffee2code)
+	Copyright (c) 2011-2016 by Scott Reilly (aka coffee2code)
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License

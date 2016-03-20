@@ -5,8 +5,8 @@ Tags: admin, browser, nag, notices, wordpress, upgrade, coffee2code
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
-Tested up to: 4.1
-Stable tag: 1.2
+Tested up to: 4.4
+Stable tag: 1.2.1
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -60,6 +60,12 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 == Changelog ==
 
+= 1.2.1 (2016-03-20) =
+* New: Add LICENSE file.
+* New: Add empty index.php to prevent files from being listed if web server has enabled directory listings.
+* Change: Note compatibility through WP 4.4+.
+* Change: Update copyright date (2016).
+
 = 1.2 (2015-02-28) =
 * Hook 'pre_site_transient_browser_' instead of 'site_transient_browser_' to avoid unnecessary transient handling by WP
 * Reformat plugin header
@@ -96,6 +102,9 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 
 == Upgrade Notice ==
+
+= 1.2.1 =
+Trivial update: verified compatibility through WP 4.4; updated copyright date (2016).
 
 = 1.2 =
 Minor update: switched to short-circuit an earlier hook to prevent unnecessary code execution in WP; noted compatibility through WP 4.1+; updated copyright date (2015)
