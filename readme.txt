@@ -31,8 +31,8 @@ Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-browser-nag) | [Pl
 
 == Installation ==
 
-1. Unzip `no-browser-nag.zip` inside the `/wp-content/plugins/` directory (or install via the built-in WordPress plugin installer)
-1. Activate the plugin through the 'Plugins' admin menu in WordPress
+1. Install via the built-in WordPress plugin installer. Or download and unzip `no-browser-nag.zip` inside the plugins directory for your site (typically `wp-content/plugins/`)
+2. Activate the plugin through the 'Plugins' admin menu in WordPress
 
 
 == Frequently Asked Questions ==
@@ -63,6 +63,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 = () =
 * Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value
 * Change: Minor code and code documentation reformatting (spacing)
+* Change: Minor readme.txt tweaks
 * Change: Note compatibility through WP 4.7+
 * Change: Update copyright date (2017)
 
@@ -81,7 +82,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 * Add plugin icon
 
 = 1.1 (2014-01-30) =
-* Remove __return_null(); it has since been added to core
+* Remove `__return_null()` it has since been added to core
 * Add check to prevent execution of code if file is directly accessed
 * Re-license as GPLv2 or later (from X11)
 * Add 'License' and 'License URI' header tags to readme.txt and plugin file
@@ -98,7 +99,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 = 1.0.1 =
 * Note compatibility through WP 3.3+
-* Add phpDoc for __return_null()
+* Add phpDoc for `__return_null()`
 * Add link to plugin directory page to readme.txt
 * Add Upgrade Notice section to readme.txt
 * Update copyright date (2012)
