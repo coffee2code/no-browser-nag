@@ -60,6 +60,9 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 == Changelog ==
 
+= () =
+* Change: Update copyright date (2017)
+
 = 1.2.1 (2016-03-20) =
 * New: Add LICENSE file.
 * New: Add empty index.php to prevent files from being listed if web server has enabled directory listings.
