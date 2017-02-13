@@ -58,7 +58,7 @@ defined( 'ABSPATH' ) or die();
 if ( ! function_exists( 'c2c_no_browser_nag' ) ) :
 
 	/**
-	 * Disable the WordPress browser nag.
+	 * Disables the WordPress browser nag.
 	 *
 	 * @since 1.0
 	 */
@@ -69,6 +69,7 @@ if ( ! function_exists( 'c2c_no_browser_nag' ) ) :
 
 		// This is cribbed from wp_check_browser_version()
 		$key = md5( $_SERVER['HTTP_USER_AGENT'] );
+
 		add_filter( 'pre_site_transient_browser_' . $key, '__return_null' );
 	}
 
