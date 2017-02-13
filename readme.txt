@@ -61,6 +61,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 == Changelog ==
 
 = () =
+* Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value
 * Change: Update copyright date (2017)
 
 = 1.2.1 (2016-03-20) =
