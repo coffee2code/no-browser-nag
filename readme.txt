@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 4.7
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -60,7 +60,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 == Changelog ==
 
-= () =
+= 1.2.2 (2017-02-12) =
 * Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value
 * Change: Minor code and code documentation reformatting (spacing)
 * Change: Minor readme.txt tweaks
@@ -109,6 +109,9 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 
 == Upgrade Notice ==
+
+= 1.2.2 =
+Trivial update: added minor check to prevent potential PHP warning; verified compatibility through WP 4.7; updated copyright date (2017).
 
 = 1.2.1 =
 Trivial update: verified compatibility through WP 4.4; updated copyright date (2016).

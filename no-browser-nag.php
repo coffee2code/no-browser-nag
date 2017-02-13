@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: No Browser Nag
- * Version:     1.2.1
+ * Version:     1.2.2
  * Plugin URI:  http://coffee2code.com/wp-plugins/no-browser-nag/
  * Author:      Scott Reilly
  * Author URI:  http://coffee2code.com
@@ -24,7 +24,7 @@
  *
  * @package No_Browser_Nag
  * @author  Scott Reilly
- * @version 1.2.1
+ * @version 1.2.2
  */
 
 /* TODO:
