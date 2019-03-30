@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.3 _(2019-03-30)_
+* Change: Hook the `pre_site_transient_browser_` filter later to ensure plugin doesn't conflict with other functions operating at default priority
+* New: Add unit tests
+* New: Add README.md file
+* New: Add CHANGELOG.md file and move all but most recent changelog entries into it
+* Change: Add some inline documentation to explain the approach taken by the plugin
+* Change: Add GitHub link to readme
+* Change: Note compatibility through WP 5.1+
+* Change: Update copyright date (2019)
+* Change: Update License URI to be HTTPS
+
 ## 1.2.2 _(2017-02-12)_
 * Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value
 * Change: Minor code and code documentation reformatting (spacing)

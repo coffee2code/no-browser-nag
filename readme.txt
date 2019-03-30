@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 5.1
-Stable tag: 1.2.2
+Stable tag: 1.3
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -60,7 +60,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 == Changelog ==
 
-= () =
+= 1.3 (2019-03-30) =
 * Change: Hook the `pre_site_transient_browser_` filter later to ensure plugin doesn't conflict with other functions operating at default priority
 * New: Add unit tests
 * New: Add README.md file
@@ -70,7 +70,6 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 * Change: Note compatibility through WP 5.1+
 * Change: Update copyright date (2019)
 * Change: Update License URI to be HTTPS
-
 
 = 1.2.2 (2017-02-12) =
 * Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value
@@ -89,6 +88,9 @@ _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no
 
 
 == Upgrade Notice ==
+
+= 1.3 =
+Minor update: changed priority for primary hook, added unit tests, created README.md file, created CHANGELOG.md file to store historical changelog outside of readme.txt, added README.md, noted compatibility through WP 5.1+, updated copyright date (2019)
 
 = 1.2.2 =
 Trivial update: added minor check to prevent potential PHP warning; verified compatibility through WP 4.7; updated copyright date (2017).
