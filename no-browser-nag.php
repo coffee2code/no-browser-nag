@@ -60,6 +60,12 @@ if ( ! function_exists( 'c2c_no_browser_nag' ) ) :
 	/**
 	 * Disables the WordPress browser nag.
 	 *
+	 * This works by filtering the value of the site transient for the hashed
+	 * user agent string prior to fetching its actual value. By returning null
+	 * (a falsey non-"false" value), `wp_check_browser_version()` is short-
+	 * circuited to not make the request to the Browse Happy API, thus no
+	 * browser nag.
+	 *
 	 * @since 1.0
 	 */
 	function c2c_no_browser_nag() {
