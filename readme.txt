@@ -61,6 +61,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 == Changelog ==
 
 = () =
+* New: Add README.md file
 * Change: Add GitHub link to readme
 * Change: Note compatibility through WP 5.1+
 * Change: Update copyright date (2019)
