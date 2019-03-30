@@ -76,7 +76,7 @@ if ( ! function_exists( 'c2c_no_browser_nag' ) ) :
 		// This is cribbed from wp_check_browser_version()
 		$key = md5( $_SERVER['HTTP_USER_AGENT'] );
 
-		add_filter( 'pre_site_transient_browser_' . $key, '__return_null' );
+		add_filter( 'pre_site_transient_browser_' . $key, '__return_null', 100 );
 	}
 
 endif;

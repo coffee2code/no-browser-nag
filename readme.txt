@@ -61,6 +61,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 == Changelog ==
 
 = () =
+* Change: Hook the `pre_site_transient_browser_` filter later to ensure plugin doesn't conflict with other functions operating at default priority
 * New: Add README.md file
 * New: Add CHANGELOG.md file and move all but most recent changelog entries into it
 * Change: Add some inline documentation to explain the approach taken by the plugin
