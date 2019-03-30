@@ -5,7 +5,7 @@ Tags: admin, browser, nag, notices, wordpress, upgrade, coffee2code
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
-Tested up to: 4.7
+Tested up to: 5.1
 Stable tag: 1.2.2
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
@@ -61,6 +61,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 == Changelog ==
 
 = () =
+* Change: Note compatibility through WP 5.1+
 * Change: Update copyright date (2019)
 * Change: Update License URI to be HTTPS
 
