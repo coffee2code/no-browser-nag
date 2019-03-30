@@ -62,6 +62,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 = () =
 * New: Add README.md file
+* New: Add CHANGELOG.md file and move all but most recent changelog entries into it
 * Change: Add GitHub link to readme
 * Change: Note compatibility through WP 5.1+
 * Change: Update copyright date (2019)
@@ -81,39 +82,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 * Change: Note compatibility through WP 4.4+.
 * Change: Update copyright date (2016).
 
-= 1.2 (2015-02-28) =
-* Hook 'pre_site_transient_browser_' instead of 'site_transient_browser_' to avoid unnecessary transient handling by WP
-* Reformat plugin header
-* Change documentation links to wp.org to be https
-* Note compatibility through WP 4.1+
-* Update copyright date (2015)
-* Add plugin icon
-
-= 1.1 (2014-01-30) =
-* Remove `__return_null()` it has since been added to core
-* Add check to prevent execution of code if file is directly accessed
-* Re-license as GPLv2 or later (from X11)
-* Add 'License' and 'License URI' header tags to readme.txt and plugin file
-* Remove ending PHP close tag
-* Documentation improvements
-* Minor code reformatting (spacing)
-* Note compatibility through WP 3.8+
-* Drop compatibility with versions of WP older than 3.4
-* Update copyright date (2014)
-* Change donate link
-* Add assets directory to plugin repository checkout
-* Add screenshot
-* Add banner
-
-= 1.0.1 =
-* Note compatibility through WP 3.3+
-* Add phpDoc for `__return_null()`
-* Add link to plugin directory page to readme.txt
-* Add Upgrade Notice section to readme.txt
-* Update copyright date (2012)
-
-= 1.0 =
-* Initial release
+_Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
