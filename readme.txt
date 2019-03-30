@@ -61,6 +61,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 == Changelog ==
 
 = () =
+* Change: Update copyright date (2019)
 * Change: Update License URI to be HTTPS
 
 
