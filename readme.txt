@@ -3,7 +3,7 @@ Contributors: coffee2code
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ARCFJ9TX3522
 Tags: admin, browser, nag, notices, wordpress, upgrade, coffee2code
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 4.7
 Stable tag: 1.2.2
@@ -59,6 +59,10 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 
 == Changelog ==
+
+= () =
+* Change: Update License URI to be HTTPS
+
 
 = 1.2.2 (2017-02-12) =
 * Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value

@@ -7,7 +7,7 @@
  * Author URI:  http://coffee2code.com
  * Text Domain: no-browser-nag
  * License:     GPLv2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Description: Removes the browser update nag that appears in the admin dashboard when using a less-than-current web browser.
  *
  * NOTE: I don't condone using an out-of-date browser. Such a browser puts your
