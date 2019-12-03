@@ -1,5 +1,8 @@
 # Changelog
 
+## _(in-progress)_
+* Change: Note compatibility through WP 5.3+
+
 ## 1.3 _(2019-03-30)_
 * Change: Hook the `pre_site_transient_browser_` filter later to ensure plugin doesn't conflict with other functions operating at default priority
 * New: Add unit tests
