@@ -27,14 +27,6 @@
  * @version 1.3.1
  */
 
-/* TODO:
- * - Add filter to define capabilities for who can see browser nag (or perhaps who can't see it)
- * - Support for a slimline browser nag (maybe like Update Nag as an admin notice, or a footer message)
- *  (unless better served as a separate plugin)
- * - Differentiate between insecure and out-of-date messages
- * - Perhaps a notice mechanism more subtle than WP default
-*/
-
 /*
 	Copyright (c) 2011-2020 by Scott Reilly (aka coffee2code)
 
