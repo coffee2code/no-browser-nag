@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 5.4
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -64,6 +64,12 @@ Yes.
 
 == Changelog ==
 
+= 1.3.2 (2020-05-25) =
+* New: Add TODO.md and move existing TODO list from top of main plugin file into it
+* Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
+* Change: Note compatibility through WP 5.4+
+* Change: Update links to coffee2code.com to be HTTPS
+
 = 1.3.1 (2019-12-03) =
 * Change: Update unit test install script and bootstrap to use latest WP unit test repo
 * Change: Note compatibility through WP 5.3+
@@ -81,17 +87,13 @@ Yes.
 * Change: Update copyright date (2019)
 * Change: Update License URI to be HTTPS
 
-= 1.2.2 (2017-02-12) =
-* Change: Check that there is a `HTTP_USER_AGENT` before doing attempting to use its value
-* Change: Minor code and code documentation reformatting (spacing)
-* Change: Minor readme.txt tweaks
-* Change: Note compatibility through WP 4.7+
-* Change: Update copyright date (2017)
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.3.2 =
+Trivial update: Added TODO.md file, updated a few URLs to be HTTPS, and noted compatibility through WP 5.4+
 
 = 1.3.1 =
 Trivial update: modernized unit tests, noted compatibility through WP 5.3+, and updated copyright date (2020)
