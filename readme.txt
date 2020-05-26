@@ -26,7 +26,7 @@ Benefits over simply clicking "dismiss" on the browser nag notice yourself when 
 
 Of course I don't condone using an out-of-date browser. Such a browser puts your computer and data at potential risk. You are often better served with the latest version of your browser: improved security, improved performance, improved stability, and additional features. However, there are situations where you cannot upgrade in a timely fashion, or you are intentionally holding off on upgrading (e.g. as you wait for a bugfix release, or for browser plugins to update their compatibility).
 
-Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-browser-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-browser-nag/) | [GitHub](https://github.com/coffee2code/no-browser-nag/) | [Author Homepage](http://coffee2code.com)
+Links: [Plugin Homepage](https://coffee2code.com/wp-plugins/no-browser-nag) | [Plugin Directory Page](https://wordpress.org/plugins/no-browser-nag/) | [GitHub](https://github.com/coffee2code/no-browser-nag/) | [Author Homepage](https://coffee2code.com)
 
 
 == Installation ==
