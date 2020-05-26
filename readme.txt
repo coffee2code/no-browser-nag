@@ -57,6 +57,10 @@ No, it does not make use of CSS nor JavaScript to disable the nag. It more effic
 
 Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard widget only hides the nag for the person clicking it; you cannot otherwise proactively prevent other users from seeing the browser nag. Also, even if the nag is dismissed, WordPress still routinely performs the check, which incurs a network request.
 
+= Does this plugin include unit tests? =
+
+Yes.
+
 
 == Changelog ==
 
