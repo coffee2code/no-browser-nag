@@ -16,7 +16,7 @@
  * upgrading (e.g. as you wait for a bugfix release, or for browser plugins to
  * update their compatibility).
  *
- * Compatible with WordPress 3.4+ through 5.3+.
+ * Compatible with WordPress 3.4+ through 5.4+.
  *
  * =>> Read the accompanying readme.txt file for instructions and documentation.
  * =>> Also, visit the plugin's homepage for additional information and updates.
