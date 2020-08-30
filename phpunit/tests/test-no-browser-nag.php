@@ -24,9 +24,6 @@ class No_Browser_Nag_Test extends WP_UnitTestCase {
 
 		$this->key = $this->set_user_agent_and_get_key();
 
-		remove_filter( 'pre_site_transient_browser_' . $this->key, array( $this, 'get_outdated_safari_data' ) );
-		remove_filter( 'pre_site_transient_browser_' . $this->key, array( $this, 'get_outdated_safari_data' ), 11 );
-
 		// Fire admin_init action, which is what the plugin keys off of to begin.
 //		do_action( 'admin_init' );
 	}

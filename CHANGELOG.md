@@ -8,6 +8,7 @@
     * Change: Move `tests/` to `phpunit/tests/`
     * Change: Rename `phpunit.xml` to `phpunit.xml.dist` per best practices
 * Change: Note compatibility through WP 5.5+
+* Change: Unit tests: Remove unnecessary unregistering of hooks in `tearDown()`
 
 ## 1.3.2 _(2020-05-25)_
 * New: Add TODO.md and move existing TODO list from top of main plugin file into it
