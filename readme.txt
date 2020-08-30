@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 5.5
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -64,6 +64,16 @@ Yes.
 
 == Changelog ==
 
+= 1.3.3 (2020-08-29) =
+* Change: Restructure unit test file structure
+    * New: Create new subdirectory `phpunit/` to house all files related to unit testing
+    * Change: Move `bin/` to `phpunit/bin/`
+    * Change: Move `tests/bootstrap.php` to `phpunit/`
+    * Change: Move `tests/` to `phpunit/tests/`
+    * Change: Rename `phpunit.xml` to `phpunit.xml.dist` per best practices
+* Change: Note compatibility through WP 5.5+
+* Change: Unit tests: Remove unnecessary unregistering of hooks in `tearDown()`
+
 = 1.3.2 (2020-05-25) =
 * New: Add TODO.md and move existing TODO list from top of main plugin file into it
 * Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
@@ -76,21 +86,13 @@ Yes.
 * Change: Update copyright date (2020)
 * Change: Add link to CHANGELOG.md in README.md
 
-= 1.3 (2019-03-30) =
-* Change: Hook the `pre_site_transient_browser_` filter later to ensure plugin doesn't conflict with other functions operating at default priority
-* New: Add unit tests
-* New: Add README.md file
-* New: Add CHANGELOG.md file and move all but most recent changelog entries into it
-* Change: Add some inline documentation to explain the approach taken by the plugin
-* Change: Add GitHub link to readme
-* Change: Note compatibility through WP 5.1+
-* Change: Update copyright date (2019)
-* Change: Update License URI to be HTTPS
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.3.3 =
+Trivial update: Restructured unit test file structure and noted compatibility through WP 5.5+.
 
 = 1.3.2 =
 Trivial update: Added TODO.md file, updated a few URLs to be HTTPS, and noted compatibility through WP 5.4+
