@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 5.7
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -64,6 +64,10 @@ Yes.
 
 == Changelog ==
 
+= 1.3.4 (2021-04-18) =
+* Change: Note compatibility through WP 5.7+
+* Change: Update copyright date (2021)
+
 = 1.3.3 (2020-08-29) =
 * Change: Restructure unit test file structure
     * New: Create new subdirectory `phpunit/` to house all files related to unit testing
@@ -80,16 +84,13 @@ Yes.
 * Change: Note compatibility through WP 5.4+
 * Change: Update links to coffee2code.com to be HTTPS
 
-= 1.3.1 (2019-12-03) =
-* Change: Update unit test install script and bootstrap to use latest WP unit test repo
-* Change: Note compatibility through WP 5.3+
-* Change: Update copyright date (2020)
-* Change: Add link to CHANGELOG.md in README.md
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.3.4 =
+Trivial update: noted compatibility through WP 5.7+ and updated copyright date (2021)
 
 = 1.3.3 =
 Trivial update: Restructured unit test file structure and noted compatibility through WP 5.5+.
