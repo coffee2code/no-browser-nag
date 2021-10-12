@@ -31,7 +31,7 @@ Links: [Plugin Homepage](https://coffee2code.com/wp-plugins/no-browser-nag) | [P
 
 == Installation ==
 
-1. Install via the built-in WordPress plugin installer. Or download and unzip `no-browser-nag.zip` inside the plugins directory for your site (typically `wp-content/plugins/`)
+1. Install via the built-in WordPress plugin installer. Or install the plugin code inside the plugins directory for your site (typically `/wp-content/plugins/`).
 2. Activate the plugin through the 'Plugins' admin menu in WordPress
 
 
