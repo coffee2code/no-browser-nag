@@ -1,12 +1,12 @@
 === No Browser Nag ===
 Contributors: coffee2code
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ARCFJ9TX3522
-Tags: admin, browser, nag, notices, wordpress, upgrade, coffee2code
+Tags: admin, browser, nag, notices, upgrade, coffee2code
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 5.8
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -64,6 +64,18 @@ Yes.
 
 == Changelog ==
 
+= 1.3.5 (2021-10-11) =
+* Change: Note compatibility through WP 5.8+
+* Change: Tweak installation instruction
+* Unit tests:
+    * Change: Restructure unit test directories
+        * Change: Move `phpunit/` into `tests/`
+        * Change: Move `phpunit/bin` into `tests/`
+    * Change: Remove 'test-' prefix from unit test file
+    * Change: Remove a sanity unit test which didn't test anything related to the plugin
+    * Change: In bootstrap, store path to plugin file constant
+    * Change: In bootstrap, add backcompat for PHPUnit pre-v6.0
+
 = 1.3.4 (2021-04-18) =
 * Change: Note compatibility through WP 5.7+
 * Change: Update copyright date (2021)
@@ -78,16 +90,13 @@ Yes.
 * Change: Note compatibility through WP 5.5+
 * Change: Unit tests: Remove unnecessary unregistering of hooks in `tearDown()`
 
-= 1.3.2 (2020-05-25) =
-* New: Add TODO.md and move existing TODO list from top of main plugin file into it
-* Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
-* Change: Note compatibility through WP 5.4+
-* Change: Update links to coffee2code.com to be HTTPS
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.3.5 =
+Trivial update: noted compatibility through WP 5.8+ and minor reorganization and tweaks to unit tests
 
 = 1.3.4 =
 Trivial update: noted compatibility through WP 5.7+ and updated copyright date (2021)
