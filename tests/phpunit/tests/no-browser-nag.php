@@ -91,13 +91,6 @@ class No_Browser_Nag_Test extends WP_UnitTestCase {
 		$this->assertEmpty( wp_check_browser_version() );
 	}
 
-	// Sanity test.
-	public function test_returns_outdated_browser_data() {
-		$expected = $this->get_outdated_safari_data();
-
-		$this->assertEquals( $expected, wp_check_browser_version() );
-	}
-
 	// Sanity test for cached browser status.
 	public function test_returns_cached_outdated_browser_data() {
 		add_filter( 'pre_site_transient_browser_' . $this->key, array( $this, 'get_outdated_safari_data' ) );
