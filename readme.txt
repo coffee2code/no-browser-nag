@@ -64,6 +64,10 @@ Yes.
 
 == Changelog ==
 
+= 1.3.6 (2023-05-21) =
+* Change: Note compatibility through WP 6.3+
+* Change: Update copyright date (2023)
+
 = 1.3.5 (2021-10-11) =
 * Change: Note compatibility through WP 5.8+
 * Change: Tweak installation instruction
@@ -80,20 +84,13 @@ Yes.
 * Change: Note compatibility through WP 5.7+
 * Change: Update copyright date (2021)
 
-= 1.3.3 (2020-08-29) =
-* Change: Restructure unit test file structure
-    * New: Create new subdirectory `phpunit/` to house all files related to unit testing
-    * Change: Move `bin/` to `phpunit/bin/`
-    * Change: Move `tests/bootstrap.php` to `phpunit/`
-    * Change: Move `tests/` to `phpunit/tests/`
-    * Change: Rename `phpunit.xml` to `phpunit.xml.dist` per best practices
-* Change: Note compatibility through WP 5.5+
-* Change: Unit tests: Remove unnecessary unregistering of hooks in `tearDown()`
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.3.6 =
+Trivial update: noted compatibility through WP 6.3+ and updated copyright date (2023)
 
 = 1.3.5 =
 Trivial update: noted compatibility through WP 5.8+ and minor reorganization and tweaks to unit tests
