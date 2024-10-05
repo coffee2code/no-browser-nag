@@ -5,7 +5,8 @@
  * @package No_Browser_Nag
  */
 
-define( 'NO_BROWSER_NAG_PLUGIN_FILE', dirname( __FILE__, 3 ) . '/no-browser-nag.php' );
+define( 'NO_BROWSER_NAG_PLUGIN_DIR',  dirname( __FILE__, 3 ) );
+define( 'NO_BROWSER_NAG_PLUGIN_FILE', NO_BROWSER_NAG_PLUGIN_DIR . '/no-browser-nag.php' );
 
 ini_set( 'display_errors', 'on' );
 error_reporting( E_ALL );
