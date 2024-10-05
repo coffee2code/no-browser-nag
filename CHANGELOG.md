@@ -5,6 +5,7 @@
 * Change: Update copyright date (2024)
 * Change: Reduce the number of plugin tags in `readme.txt`
 * Change: Tweak formatting in `README.md`
+* New: Add `.gitignore` file
 
 ## 1.3.6 _(2023-05-21)_
 * Change: Note compatibility through WP 6.3+
