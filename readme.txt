@@ -1,7 +1,7 @@
 === No Browser Nag ===
 Contributors: coffee2code
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ARCFJ9TX3522
-Tags: admin, browser, nag, notices, upgrade, coffee2code
+Tags: admin, browser, nag, notices, upgrade
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
