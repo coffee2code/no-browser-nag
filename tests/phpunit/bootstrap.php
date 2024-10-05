@@ -5,6 +5,9 @@
  * @package No_Browser_Nag
  */
 
+// Prevent web access.
+( php_sapi_name() !== 'cli' ) && die();
+
 define( 'NO_BROWSER_NAG_PLUGIN_DIR',  dirname( __FILE__, 3 ) );
 define( 'NO_BROWSER_NAG_PLUGIN_FILE', NO_BROWSER_NAG_PLUGIN_DIR . '/no-browser-nag.php' );
 
