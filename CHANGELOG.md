@@ -8,6 +8,8 @@
 * New: Add `.gitignore` file
 * Change: Remove development and testing-related files from release packaging
 * Unit tests:
+    * Allow tests to run against current versions of WordPress
+    * New: Add `composer.json` for PHPUnit Polyfill dependency
     * Change: In bootstrap, store path to plugin directory in a constant
 
 ## 1.3.6 _(2023-05-21)_
