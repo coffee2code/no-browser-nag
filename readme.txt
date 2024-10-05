@@ -59,7 +59,7 @@ Clicking the "Dismiss" link at the bottom of the browser nag admin dashboard wid
 
 = Does this plugin include unit tests? =
 
-Yes.
+Yes. The tests are not packaged in the release .zip file or included in plugins.svn.wordpress.org, but can be found in the [plugin's GitHub repository](https://github.com/coffee2code/no-browser-nag/).
 
 
 == Changelog ==
