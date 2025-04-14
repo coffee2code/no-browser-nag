@@ -10,6 +10,7 @@
 * Change: Remove development and testing-related files from release packaging
 * Unit tests:
     * Hardening: Prevent direct web access to `bootstrap.php`
+    * Change: Explicitly define return type for overridden methods
     * Allow tests to run against current versions of WordPress
     * New: Add `composer.json` for PHPUnit Polyfill dependency
     * Change: In bootstrap, store path to plugin directory in a constant

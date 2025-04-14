@@ -6,7 +6,7 @@ class No_Browser_Nag_Test extends WP_UnitTestCase {
 
 	protected $key = '';
 
-	public static function setUpBeforeClass() {
+	public static function setUpBeforeClass(): void {
 		// Make all requests as if in the admin, which is the only place the plugin
 		// affects.
 		define( 'WP_ADMIN', true );
@@ -19,7 +19,7 @@ class No_Browser_Nag_Test extends WP_UnitTestCase {
 //		do_action( 'admin_init' );
 	}
 
-	public function setUp() {
+	public function setUp(): void {
 		parent::setUp();
 
 		$this->key = $this->set_user_agent_and_get_key();
