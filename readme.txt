@@ -5,7 +5,7 @@ Tags: admin, browser, nag, notices, upgrade
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
-Tested up to: 6.6
+Tested up to: 6.8
 Stable tag: 1.3.5
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
