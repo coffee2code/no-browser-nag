@@ -6,7 +6,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.4
 Tested up to: 6.8
-Stable tag: 1.3.6
+Stable tag: 1.3.7
 
 Removes the browser nag that appears in the admin dashboard when using a less-than-current web browser.
 
@@ -64,6 +64,23 @@ Yes. The tests are not packaged in the release .zip file or included in plugins.
 
 == Changelog ==
 
+= 1.3.7 (2025-04-14) =
+* Change: Note compatibility through WP 6.8+
+* Change: Note compatibility through PHP 8.3+
+* Change: Update copyright date (2025)
+* Change: Suppress not applicable PHPCS warnings
+* Change: Reduce the number of plugin tags in `readme.txt`
+* Change: Tweak formatting in `README.md`
+* New: Add `.gitignore` file
+* Change: Remove development and testing-related files from release packaging
+* Unit tests:
+    * Hardening: Prevent direct web access to `bootstrap.php`
+    * Change: Explicitly define return type for overridden methods
+    * Allow tests to run against current versions of WordPress
+    * New: Add `composer.json` for PHPUnit Polyfill dependency
+    * New: Add more unit tests
+    * Change: In bootstrap, store path to plugin directory in a constant
+
 = 1.3.6 (2023-05-21) =
 * Change: Note compatibility through WP 6.3+
 * Change: Update copyright date (2023)
@@ -80,14 +97,13 @@ Yes. The tests are not packaged in the release .zip file or included in plugins.
     * Change: In bootstrap, store path to plugin file constant
     * Change: In bootstrap, add backcompat for PHPUnit pre-v6.0
 
-= 1.3.4 (2021-04-18) =
-* Change: Note compatibility through WP 5.7+
-* Change: Update copyright date (2021)
-
 _Full changelog is available in [CHANGELOG.md](https://github.com/coffee2code/no-browser-nag/blob/master/CHANGELOG.md)._
 
 
 == Upgrade Notice ==
+
+= 1.3.7 =
+Trivial update: noted compatibility through WP 6.8+ and PHP 8.3+, improved unit testing while also removing unit tests from release packaging, and updated copyright date (2025)
 
 = 1.3.6 =
 Trivial update: noted compatibility through WP 6.3+ and updated copyright date (2023)
