@@ -66,6 +66,7 @@ if ( ! function_exists( 'c2c_no_browser_nag' ) ) :
 		}
 
 		// This is cribbed from wp_check_browser_version()
+		// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized,WordPress.Security.ValidatedSanitizedInput.MissingUnslash -- Global value is simply being used to generate a hash and needs to replicate how core generates the key this hash is part of.
 		$key = md5( $_SERVER['HTTP_USER_AGENT'] );
 
 		add_filter( 'pre_site_transient_browser_' . $key, '__return_null', 100 );

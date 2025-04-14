@@ -4,6 +4,7 @@
 * Change: Note compatibility through WP 6.8+
 * Change: Note compatibility through PHP 8.3+
 * Change: Update copyright date (2025)
+* Change: Suppress not applicable PHPCS warnings
 * Change: Reduce the number of plugin tags in `readme.txt`
 * Change: Tweak formatting in `README.md`
 * New: Add `.gitignore` file
