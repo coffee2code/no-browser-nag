@@ -100,6 +100,17 @@ class No_Browser_Nag_Test extends WP_UnitTestCase {
 		$this->assertEquals( $expected, wp_check_browser_version() );
 	}
 
+	public function test_does_not_hook_pre_site_transient_browser_by_default() {
+		$this->assertFalse( has_filter( 'pre_site_transient_browser_' . $this->key ) );
+	}
+
+	public function test_does_not_hook_pre_site_transient_browser_if_no_HTTP_USER_AGENT() {
+		unset( $_SERVER['HTTP_USER_AGENT'] );
+		c2c_no_browser_nag();
+
+		$this->assertFalse( has_filter( 'pre_site_transient_browser_' . $this->key ) );
+	}
+
 	public function test_hooks_pre_site_transient_browser() {
 		// Simulate plugin being triggered via 'admin_init'.
 		c2c_no_browser_nag();
